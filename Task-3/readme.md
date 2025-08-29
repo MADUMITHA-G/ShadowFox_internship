@@ -1,3 +1,84 @@
+Task 3 - Heart Disease Dataset Analysis
+# Heart Disease Dataset Analysis
+##  Problem Statement
+
+Heart disease is a leading cause of death worldwide. Identifying risk factors and patterns early can help in diagnosis and prevention.
+This project explores a clinical dataset of 3,069 patient records with 17 features (demographic, lifestyle, and medical parameters) to understand the factors associated with heart disease.
+
+## Overview
+
+Dataset size: 3,069 rows × 17 columns
+
+Target variable: heart_disease (0 = No, 1 = Yes)
+
+Positive cases: ~40.4%
+
+Features include: age, sex, chest pain type (cp), blood pressure (trestbps), cholesterol (chol), fasting blood sugar (fbs), maximum heart rate (thalach), ST depression (oldpeak), smoking, diabetes, BMI, etc.
+
+Key insights from EDA:
+
+Age: Higher risk in older patients.
+
+Sex: Males more frequently affected.
+
+Cholesterol, trestbps, oldpeak, thalach: Strongly associated with heart disease.
+
+Lifestyle factors: Smoking and diabetes show higher prevalence in the positive class.
+
+Correlation Heatmap: Identifies clinical predictors most correlated with heart disease.
+
+## Tools & Frameworks Used
+
+Python: Data analysis & preprocessing
+
+pandas, numpy: Data handling
+
+matplotlib, seaborn: Data visualization
+
+(Future work) scikit-learn: Machine learning models (Logistic Regression, Random Forest, XGBoost)
+
+(Optional) SHAP: Model explainability
+
+## Visualizations
+
+Heart disease distribution
+
+Age vs heart disease (violin plot)
+
+Sex vs heart disease (countplot)
+
+Chest pain type vs heart disease (countplot)
+
+Resting BP, Cholesterol, BMI distributions by target (boxplots)
+
+Maximum heart rate & ST depression vs target (boxplots)
+
+Smoking, diabetes, fasting blood sugar vs heart disease (countplots)
+
+Correlation heatmap
+
+## Next Steps
+
+Data preprocessing: One-hot encoding, scaling, outlier handling
+
+Model building: Logistic Regression, Random Forest, XGBoost
+
+Model evaluation: Accuracy, Precision, Recall, F1, ROC-AUC
+
+Explainability: SHAP feature importance plots
+
+Deployment: Save model (joblib/pickle), simple Flask API or Streamlit app
+
+## Conclusion
+
+Dataset is clean (no missing values, no duplicates).
+
+Key predictors observed: thalach, oldpeak, age, chol, ca.
+
+Both demographic (age, sex) and lifestyle factors (smoking, diabetes) influence heart disease risk.
+
+With proper preprocessing and classification models, predictive performance can be optimized.
+
 # Questions & answers 
 
 ## What is the prevalence of heart disease in this dataset?
