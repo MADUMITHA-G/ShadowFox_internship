@@ -66,3 +66,19 @@ Marketing: Identifying customer preferences and brand perception.
 This project successfully demonstrated how sentiment analysis can extract meaningful insights from social media data. The combination of VADER sentiment analysis, visualization techniques, and word frequency analysis provided a clear understanding of the dataset.
 Overall, the analysis revealed that positive sentiments outweighed negative ones, indicating a generally favorable online environment in the dataset.
 
+# Questions and Answers 
+
+### What categories of sentiments were analyzed?
+The analysis considered three main sentiment categories: Positive, Negative, and Neutral.
+
+### Which sentiment had the highest number of tweets?
+The majority of tweets were Positive, followed by Neutral, and then Negative.
+
+### What are the most common words used in positive tweets?
+Frequently used words in positive tweets included terms like good, love, great, happy, thanks.
+
+### How balanced is the dataset in terms of sentiment distribution?
+The dataset is slightly imbalanced, with positive tweets being the majority, neutral tweets in the middle, and negative tweets the least.
+
+### What are the most common words used in negative tweets?
+Negative tweets often contained words like bad, hate, worst, sad, problem.
